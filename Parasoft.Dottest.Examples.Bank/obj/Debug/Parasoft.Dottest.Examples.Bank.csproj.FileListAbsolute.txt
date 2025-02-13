@@ -1,0 +1,6 @@
+c:\AEP\source\dotTest\Examples\NET Framework\VS2019\SourceCode\BankExample\Parasoft.Dottest.Examples.Bank\bin\Debug\Parasoft.Dottest.Examples.Bank.dll
+c:\AEP\source\dotTest\Examples\NET Framework\VS2019\SourceCode\BankExample\Parasoft.Dottest.Examples.Bank\bin\Debug\Parasoft.Dottest.Examples.Bank.pdb
+c:\AEP\source\dotTest\Examples\NET Framework\VS2019\SourceCode\BankExample\Parasoft.Dottest.Examples.Bank\obj\Debug\Parasoft.Dottest.Examples.Bank.csproj.AssemblyReference.cache
+c:\AEP\source\dotTest\Examples\NET Framework\VS2019\SourceCode\BankExample\Parasoft.Dottest.Examples.Bank\obj\Debug\Parasoft.Dottest.Examples.Bank.csproj.CoreCompileInputs.cache
+c:\AEP\source\dotTest\Examples\NET Framework\VS2019\SourceCode\BankExample\Parasoft.Dottest.Examples.Bank\obj\Debug\Parasoft.Dottest.Examples.Bank.dll
+c:\AEP\source\dotTest\Examples\NET Framework\VS2019\SourceCode\BankExample\Parasoft.Dottest.Examples.Bank\obj\Debug\Parasoft.Dottest.Examples.Bank.pdb

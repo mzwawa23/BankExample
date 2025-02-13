@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="2025-02-13" climode="true" endTime="2025-02-13T20:55:28+01:00" execEnv="win32_x86_64" hasViols="true" id="1739894173039" lang="en_GB" machine="continental" prjModule="Parasoft.Dottest.Examples.Bank" project="" tag="${scontrol_branch}-win32_x86_64" time="2025-02-13T20:54:26+01:00" toolDispName="dotTEST" toolId="dottest" toolName="DTP Engine for .NET" toolVer="2024.2.0" user="mzwawa">
+   <TestConfig machine="continental" name="Recommended Rules" pseudoUrl="builtin://Recommended Rules" user="mzwawa"/>
+   <Authors>
+      <Author id="dev1" name="mzwawa"/>
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Code Duplication Parser" ver="10.7.1.20241021"/>
+      <Analyzer id="com.parasoft.dottest" name="Parasoft dotTEST" ver="10.7.1.1737"/>
+      <Analyzer id="com.parasoft.dottest.dupcode" name="Code Duplication Detector" ver="10.7.1.20241021"/>
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IChangeImpactViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1"/>
+   </VersionInfos>
+   <Goals tsks="25">
+      
+   </Goals>
+   <Metrics>
+      <Metric avg="1.542" disp="true" id="METRIC.CC" max="4" min="1" name="McCabe Cyclomatic Complexity" noi="59" stddev="0.908">
+         <Info avg="1.542" disp="true" elem="Parasoft.Dottest.Examples.Bank" max="4" min="1" noi="59" stddev="0.908"/>
+      </Metric>
+      <Metric avg="0.248" disp="true" id="METRIC.NBD" max="3" min="0" name="Nested Blocks Depth" noi="113" stddev="0.588">
+         <Info avg="0.248" disp="true" elem="Parasoft.Dottest.Examples.Bank" max="3" min="0" noi="113" stddev="0.588"/>
+      </Metric>
+      <Metric avg="55.526" disp="true" id="METRIC.NOPLIF" max="141" min="13" name="Physical Lines in Files" noi="19" stddev="27.886">
+         <Info avg="55.526" disp="true" elem="Parasoft.Dottest.Examples.Bank" max="141" min="13" noi="19" stddev="27.886"/>
+      </Metric>
+      <Metric avg="6.885" disp="true" id="METRIC.NOSLIM" max="48" min="1" name="Source Lines in Methods" noi="87" stddev="6.439">
+         <Info avg="6.885" disp="true" elem="Parasoft.Dottest.Examples.Bank" max="48" min="1" noi="87" stddev="6.439"/>
+      </Metric>
+   </Metrics>
+   <Scope>
+      <Repositories/>
+      <Locations>
+         <Loc hash="583233202" locRef="1" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="AccountNumber.cs" totLns="89" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/AccountNumber.cs"/>
+         <Loc hash="-1904464826" locRef="2" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Bank.cs" totLns="140" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Bank.cs"/>
+         <Loc hash="33954980" locRef="3" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="BankAccount.cs" totLns="49" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/BankAccount.cs"/>
+         <Loc hash="190994750" locRef="4" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="BankUser.cs" totLns="43" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/BankUser.cs"/>
+         <Loc hash="2123378625" locRef="5" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="CurrencyExchangeConverter.cs" totLns="71" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs"/>
+         <Loc hash="-1333971617" locRef="6" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="ExampleBank.cs" totLns="82" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/ExampleBank.cs"/>
+         <Loc hash="1562776998" locRef="7" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="IInterBankTransferSystem.cs" totLns="12" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/IInterBankTransferSystem.cs"/>
+         <Loc hash="-1513177483" locRef="8" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="ReportGenerator.cs" totLns="53" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs"/>
+         <Loc hash="-2050913566" locRef="9" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Money/Currency.cs" totLns="60" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Money/Currency.cs"/>
+         <Loc hash="-854174013" locRef="10" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Money/CurrencyInfo.cs" totLns="29" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyInfo.cs"/>
+         <Loc hash="-153060563" locRef="11" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Money/CurrencyProvider.cs" totLns="66" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs"/>
+         <Loc hash="-760614867" locRef="12" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Money/CurrencyWithCents.cs" totLns="69" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs"/>
+         <Loc hash="1998113113" locRef="13" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Money/CurrencyWithNoCents.cs" totLns="47" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs"/>
+         <Loc hash="2097579360" locRef="14" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Properties/AssemblyInfo.cs" totLns="35" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Properties/AssemblyInfo.cs"/>
+         <Loc hash="2123519255" locRef="15" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Transactions/ExternalTransfer.cs" totLns="40" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs"/>
+         <Loc hash="-1435513077" locRef="16" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Transactions/IncommingTransfer.cs" totLns="37" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Transactions/IncommingTransfer.cs"/>
+         <Loc hash="-2022280772" locRef="17" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Transactions/OutgoingTransfer.cs" totLns="37" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs"/>
+         <Loc hash="1750484791" locRef="18" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Transactions/TransactionBase.cs" totLns="54" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs"/>
+         <Loc hash="-343300954" locRef="19" projId="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" projPath="BankExample/Parasoft.Dottest.Examples.Bank" project="Parasoft.Dottest.Examples.Bank" resProjPath="Transactions/TransferTransaction.cs" totLns="23" uri="file:/c:/AEP/source/dotTest/Examples/NET%20Framework/VS2019/SourceCode/BankExample/Parasoft.Dottest.Examples.Bank/Transactions/TransferTransaction.cs"/>
+      </Locations>
+   </Scope>
+   
+  <SetupProblems/>
+
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:31">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="19" checkedLns="1036" id="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" name="Parasoft.Dottest.Examples.Bank" qfixErrs="0" suppErrs="0" totErrs="25" totFiles="19" totLns="1036"/>
+      </Projects>
+      
+      
+      <Rules>
+         <CategoriesList>
+            <Category authTot="0;" authUrg="0;" desc="Flow Analysis" name="BD" rules="48" total="0">
+               <Category authTot="0;" authUrg="0;" desc="API" name="BD.API" rules="2" total="0"/>
+               <Category authTot="1;" authUrg="1;" desc="Possible Bugs" name="BD.PB" rules="17" total="1"/>
+               <Category authTot="0;" authUrg="0;" desc="Resources" name="BD.RES" rules="1" total="0"/>
+               <Category authTot="0;" authUrg="0;" desc="Threads &amp; Synchronization" name="BD.TRS" rules="4" total="0"/>
+               <Category authTot="0;" authUrg="0;" desc="Collections" name="BD.CO" rules="1" total="0"/>
+               <Category authTot="1;" authUrg="1;" desc="Exceptions" name="BD.EXCEPT" rules="2" total="1"/>
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Better Readability and Maintainability" name="BRM" rules="15" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="Code Duplication Detection" name="CDD" rules="4" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="Class Member Usage Guidelines" name="CMUG" rules="48" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Constructor Usage" name="CMUG.CU" rules="5" total="0"/>
+               <Category authTot="0;" authUrg="0;" desc="Event Usage" name="CMUG.EVU" rules="16" total="0"/>
+               <Category authTot="2;" authUrg="2;" desc="Method Usage" name="CMUG.MU" rules="10" total="2"/>
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="C# only" name="CS" rules="63" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Threads &amp; Synchronization" name="CS.TRS" rules="3" total="0"/>
+               <Category authTot="0;" authUrg="0;" desc="Serialization Guidelines" name="CS.SERIAL" rules="3" total="0"/>
+               <Category authTot="0;" authUrg="0;" desc="Possible Exception" name="CS.PE" rules="1" total="0"/>
+               <Category authTot="0;" authUrg="0;" desc="Exceptions" name="CS.EXCEPT" rules="1" total="0"/>
+               <Category authTot="0;" authUrg="0;" desc="Better Readability and Maintainability" name="CS.BRM" rules="16" total="0"/>
+               <Category authTot="7;" authUrg="7;" desc="Possible Bugs" name="CS.PB" rules="25" total="7">
+                  <Category authTot="0;" authUrg="0;" desc="Useless Code" name="CS.PB.USC" rules="2" total="0"/>
+               </Category>
+               <Category authTot="0;" authUrg="0;" desc="Security Inspection" name="CS.SEC" rules="3" total="0"/>
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Exceptions" name="EXCEPT" rules="4" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="Garbage Collector" name="GC" rules="2" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="Implementing Finalize and Dispose" name="IFD" rules="19" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="Metric" name="METRIC" rules="50" total="0"/>
+            <Category authTot="2;" authUrg="2;" desc="Operator Overloading Usage Guidelines" name="OPU" rules="20" total="2"/>
+            <Category authTot="7;" authUrg="7;" desc="Possible Bugs" name="PB" rules="28" total="7">
+               <Category authTot="2;" authUrg="2;" desc="Incomplete Implementation" name="PB.II" rules="2" total="2"/>
+            </Category>
+            <Category authTot="3;" authUrg="3;" desc="Security Inspection" name="SEC" rules="55" total="3">
+               <Category authTot="0;" authUrg="0;" desc="Web Security" name="SEC.WEB" rules="14" total="0"/>
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Serialization Guidelines" name="SERIAL" rules="14" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Xml Serialization Guidelines" name="SERIAL.XML" rules="8" total="0"/>
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Threads &amp; Synchronization" name="TRS" rules="2" total="0"/>
+            <Category authTot="0;" authUrg="0;" desc="Type Usage Guidelines" name="TUG" rules="21" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Derived Class Usage" name="TUG.DCU" rules="1" total="0"/>
+               <Category authTot="0;" authUrg="0;" desc="Struct Usage" name="TUG.SU" rules="2" total="0"/>
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="Visual Basic Only" name="VB" rules="4" total="0">
+               <Category authTot="0;" authUrg="0;" desc="Implementing Finalize and Dispose" name="VB.IFD" rules="1" total="0"/>
+            </Category>
+         </CategoriesList>
+         <RulesList>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.API" desc="Make sure implementation of Object.Equals(Object) properly handles null values" id="BD.API.EQNULL" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.API" desc="Make sure implementation of Object.Equals(Object) is reflexive" id="BD.API.EQREFL" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.CO" desc="Do not modify collection while iterating over it" id="BD.CO.ITMOD" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.EXCEPT" desc="Avoid ArgumentNullException" id="BD.EXCEPT.AN" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="BD.EXCEPT" desc="Avoid NullReferenceException" id="BD.EXCEPT.NR" sev="1" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid use before explicit initialization" id="BD.PB.NOTEXPLINIT" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Do not base the equality of objects on the equality of hash codes" id="BD.PB.UGHC" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="BD.PB" desc="Avoid division by zero" id="BD.PB.ZERO" sev="1" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid conditions that always evaluate to the same value" id="BD.PB.CC" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Do not use disposed resources" id="BD.PB.DISP" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Do not use managed resources in finalizers" id="BD.PB.FIN" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Do not append null value to strings" id="BD.PB.STRNULL" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Avoid switch with unreachable branches" id="BD.PB.SWITCH" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.PB" desc="Ensure that the method body used in ThreadStart/ParameterizedThreadStart is wrapped in a 'try-catch' block" id="BD.PB.TMTC" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.RES" desc="Ensure resources are deallocated" id="BD.RES.LEAKS" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.TRS" desc="Do not abandon unreleased mutexes" id="BD.TRS.MUTEX" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BD.TRS" desc="Do not acquire locks in different order" id="BD.TRS.ORDER" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Avoid hiding methods from base classes" id="BRM.HBCM" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Avoid hiding properties from base classes" id="BRM.HBCP" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Always provide names for threads" id="BRM.APNFT" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="BRM" desc="Use 'L' instead of 'l' to express 'long' integer constants" id="BRM.LINUPPERCASE" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.dupcode.parser" authTot="0;" authUrg="0;" cat="CDD" desc="Avoid method duplication" id="CDD.DUPM" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.xtest.dupcode.parser" authTot="0;" authUrg="0;" cat="CDD" desc="Avoid types duplication" id="CDD.DUPT" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.CU" desc="Avoid throwing exceptions from static constructors" id="CMUG.CU.ATES" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Avoid never listened private events" id="CMUG.EVU.ANLPE" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Avoid never raised events" id="CMUG.EVU.ANRE" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.EVU" desc="Do not return values from events" id="CMUG.EVU.DNRVFE" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="2;" authUrg="2;" cat="CMUG.MU" desc="Avoid parameter swapping when overriding or implementing methods" id="CMUG.MU.APSM" sev="1" total="2"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CMUG.MU" desc="Ensure that method return values are used" id="CMUG.MU.RETVAL" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Avoid checked, unchecked, fixed and unsafe statements with empty bodies" id="CS.BRM.CPEB" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.BRM" desc="Avoid initialization statements with empty bodies" id="CS.BRM.IEB" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.EXCEPT" desc="Avoid clearing stack trace while rethrowing exceptions" id="CS.EXCEPT.RETHROW" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid assignment within a condition" id="CS.PB.AWC" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="CS.PB" desc="Avoid conditional statements with empty bodies" id="CS.PB.CEB" sev="1" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid try, catch, finally and using statements with empty bodies" id="CS.PB.EEB" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not use floating point variables as loop indices" id="CS.PB.FPLI" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid increment and decrement statements which have no effect" id="CS.PB.IDNE" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Review '?:' operator for potential misuse" id="CS.PB.MCO" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not increment or decrement on the same variable over multiple nested 'for' loop statements" id="CS.PB.NSIVFLN" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not compare value types to null" id="CS.PB.VTNV" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="CS.PB" desc="Avoid non-iterable loops" id="CS.PB.ANIL" sev="2" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="CS.PB" desc="Do not use bitwise operators on bool operands" id="CS.PB.BITBOOL" sev="2" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid confusing assignments to constructor arguments" id="CS.PB.CCA" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Check for 'null' when using 'as' operator" id="CS.PB.CNFA" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="2;" authUrg="2;" cat="CS.PB" desc="Provide 'default:' for each 'switch' statement" id="CS.PB.DEFSWITCH" sev="2" total="2"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Use initializer variable in a condition of 'for' loop" id="CS.PB.IVFLC" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Use initializer variable in 'for' loop iterator section" id="CS.PB.IVFLI" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="CS.PB" desc="Avoid inaccessible classes and structs" id="CS.PB.NACC" sev="2" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not modify 'for' loop initializer variable in 'for' loop body" id="CS.PB.NSIVFLB" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Avoid using the unary + operator" id="CS.PB.PUO" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Return empty collection instead of null" id="CS.PB.REA" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB" desc="Do not use an integer outside the range of [0, 31] as the amount of a shift" id="CS.PB.SHIFT" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="CS.PB" desc="Avoid wrong indentation of blockless statements" id="CS.PB.WIBS" sev="2" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PB.USC" desc="Avoid unreachable code" id="CS.PB.USC.UC" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.PE" desc="Verify FileDialog filter pattern" id="CS.PE.VFFP" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.SEC" desc="Do not re-create string from SecureString" id="CS.SEC.RSFSS" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.SERIAL" desc="Implement IDeserializationCallback for classes with NonSerialized fields" id="CS.SERIAL.IIDC" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.SERIAL" desc="Do not store non-serializable objects in Session" id="CS.SERIAL.SOIS" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.SERIAL" desc="Use the standard pattern while implementing ISerializable" id="CS.SERIAL.UIS" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="CS.TRS" desc="Avoid lock statements with empty bodies" id="CS.TRS.LEB" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Do not catch  'NullReferenceException''" id="EXCEPT.NCNRE" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="EXCEPT" desc="Avoid throwing exceptions from exceptions constructors" id="EXCEPT.TIEC" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="GC" desc="Avoid static collections which may lead to memory leakage" id="GC.ASC" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Avoid calling Finalize directly" id="IFD.ACFD" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Avoid throwing exceptions from the Dispose method implementations" id="IFD.ATED" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Avoid throwing exceptions from finalizers" id="IFD.ATEF" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Method 'Dispose(bool)' in method 'Dispose()' should be called with true and in finalizer with false" id="IFD.DBDTFF" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="IDisposable.Dispose() implementation should call specific methods" id="IFD.DCDSF" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Always call Dispose(bool) in finalizer if IDisposable is implemented" id="IFD.DCID" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="In 'Dispose(bool)' use input parameter to check if it is actually disposing" id="IFD.DDFODB" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Provide finalizers in types which use resources" id="IFD.SRIF" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Type that implements 'IDisposable' should contain and use field with information about dispose state" id="IFD.TICUFDS" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Type that implements 'IDisposable' should implement 'Dispose(bool)' method" id="IFD.TIID" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Call the Dispose method of the base class from the Dispose method in the derived class" id="IFD.CBDM" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Method 'Dispose()' should not be overridable" id="IFD.DNV" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="IFD" desc="Implement IDisposable when you provide a destructor (finalizer)" id="IFD.IDWF" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="METRIC" desc="McCabe Cyclomatic Complexity" id="METRIC.CC" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="METRIC" desc="Nested Blocks Depth" id="METRIC.NBD" sev="3" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Avoid throwing exceptions from Equals methods" id="OPU.ATEE" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Avoid throwing exceptions from GetHashCode methods" id="OPU.ATEGH" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Avoid throwing exceptions from implicit type conversion operators" id="OPU.ATEI" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Avoid throwing exceptions in equality operators" id="OPU.ATEOE" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="OPU" desc="Compare parameter of Equals(Object) method to null" id="OPU.CPNEQ" sev="1" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Override the GetHashCode method whenever you override the Equals method" id="OPU.IGHWE" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Do not override operator equality in reference types" id="OPU.AOERT" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="OPU" desc="Compare parameter type of Equals(Object) method" id="OPU.CPTEQ" sev="2" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Override Equals when implementing IComparable" id="OPU.IEWI" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Override Equals when you override operator ==" id="OPU.IEWOE" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Overload operators symmetrically" id="OPU.OOS" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="OPU" desc="Do not use ReferenceEquals() on value types" id="OPU.REVT" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="PB" desc="Avoid infinite recursive method calls" id="PB.AIRC" sev="1" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Do not use value types as arguments of Monitor.Enter and Monitor.Exit" id="PB.ALVT" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Avoid throwing exceptions from ToString method" id="PB.ATETS" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="PB" desc="Verify number of arguments in Composite Formatting feature" id="PB.CFF" sev="1" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="PB" desc="Don't use illegal regular expression" id="PB.REG" sev="1" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Ensure static field is initialized before it is used" id="PB.SFAI" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="PB" desc="Do not compare floating-point types for equality" id="PB.DNCF" sev="2" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="3;" authUrg="3;" cat="PB" desc="Use TryParse method instead Parse on primitive types" id="PB.DNUP" sev="2" total="3"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Use String.IsNullOrEmpty to check if a string is null or empty" id="PB.INOE" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="PB" desc="Do not check whether the result of 'String.IndexOf()' is positive or not" id="PB.STRIDX" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="PB.II" desc="Do not leave code which throws System.NotImplementedException" id="PB.II.NIE" sev="1" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="1;" authUrg="1;" cat="PB.II" desc="Ensure that comments do not contain task tags" id="PB.II.TODO" sev="2" total="1"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Do not attempt to deny the SkipVerification security permission" id="SEC.ADSVSP" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Do not change the RSA/DSA KeySize property" id="SEC.DNCCKS" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="There should be no classes without namespace" id="SEC.ACWNS" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid indexer wraparound in loops" id="SEC.AIWIL" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid using potentially dangerous methods" id="SEC.APDM" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Do not use the Trace.Assert() method in production code" id="SEC.ATA" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="3;" authUrg="3;" cat="SEC" desc="Do not use hardcoded string for password related parameters" id="SEC.HPW" sev="2" total="3"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Avoid using insecure algorithms for cryptography" id="SEC.ICA" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Ensure all exceptions are either logged with a standard logger or rethrown" id="SEC.LGE" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC" desc="Use System.Security.Cryptography.RandomNumberGenerator instead of System.Random" id="SEC.USSCR" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC.WEB" desc="Ensure that authorization attributes match the controller" id="SEC.WEB.UAAMC" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SEC.WEB" desc="Redirect a request made over HTTP to HTTPS" id="SEC.WEB.RHTTPS" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Ensure base classes are marked Serializable" id="SERIAL.BASECLASS" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Ensure entire graph of object can be serialized" id="SERIAL.MEMBERFIELDS" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Mark ISerializable.GetObjectData with SecurityPermissionAttribute" id="SERIAL.MGODWSPA" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Call WriteObjectdata while implementing ISerializable.GetObjectData" id="SERIAL.GETOBJ" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL" desc="Always provide deserialization constructor when ISerializable interface is implemented" id="SERIAL.IDC" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Ensure that readonly property which is a collection does not expose any sensitive information" id="SERIAL.XML.CSG" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Ensure that property of collection type implements Add method and indexer" id="SERIAL.XML.CTS" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Make sure that type of serialized field/property is compatible with type used in XmlElementAttribute" id="SERIAL.XML.SOAFAP" sev="1" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Remove XmlAttribute from field and properties of comlex types" id="SERIAL.XML.ATTRIB" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Always provide default parameterless constructor in xml serialized class" id="SERIAL.XML.DCTOR" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Do not use interface type for xml serialized property or field" id="SERIAL.XML.IFAPS" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Make type used in xml serialization 'public'" id="SERIAL.XML.NPCS" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="SERIAL.XML" desc="Provide setter for xml serialized properties" id="SERIAL.XML.ROPS" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TRS" desc="Avoid calling Thread.Abort()" id="TRS.THREADABORT" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TRS" desc="Avoid calling Thread.Sleep()" id="TRS.THREADSLEEP" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.DCU" desc="Do not hide inherited fields" id="TUG.DCU.DNHF" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="TUG.SU" desc="Enforce custom attribute ImmutableAtomic" id="TUG.SU.IAS" sev="2" total="0"/>
+            <Rule analyzer="com.parasoft.dottest" authTot="0;" authUrg="0;" cat="VB.IFD" desc="Call the Finalize method of the base class from the finalizer in the derived class" id="VB.IFD.CBFM" sev="2" total="0"/>
+         </RulesList>
+         <SeverityList>
+            <Severity authTot="10;" authUrg="10;" id="1" total="10"/>
+            <Severity authTot="15;" authUrg="15;" id="2" total="15"/>
+         </SeverityList>
+      </Rules>
+      
+  <Supps/>
+
+      
+  <StdViols>
+    <StdViol msg="Change Equals() implementation to match a standard pattern. Use: if (this.GetType() != obj.GetType()) { return false; }" ln="54" locFile="BankExample/Parasoft.Dottest.Examples.Bank/AccountNumber.cs" auth="mzwawa" rule="OPU.CPTEQ" lnHash="1252347395" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Compare parameter type of Equals(Object) method" locStartPos="29" analyzer="com.parasoft.dottest" lang="dotnet" violId="c1816203-dd40-39b7-b48c-c58c363d5f1b" locEndPos="35" urgent="true" locEndLn="54" goals="1," locStartln="54" sev="2" locRef="1" ctx="54,9|69,10" tool=".test" lineHash="1252347395" unbViolId="01a06482-6df5-3749-a186-cd47fbf6adc4" locType="sr" hash="583233202"/>
+    <StdViol msg="Change Equals() implementation to match a standard pattern. Use: if (obj == null) { return false; }" ln="54" locFile="BankExample/Parasoft.Dottest.Examples.Bank/AccountNumber.cs" auth="mzwawa" rule="OPU.CPNEQ" lnHash="1252347395" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Compare parameter of Equals(Object) method to null" locStartPos="29" analyzer="com.parasoft.dottest" lang="dotnet" violId="5abc4695-e746-3bb5-a773-c0f4e916ac65" locEndPos="35" urgent="true" locEndLn="54" goals="1," locStartln="54" sev="1" locRef="1" ctx="54,9|69,10" tool=".test" lineHash="1252347395" unbViolId="c9e26f0f-0c1f-3a1e-ae04-1f9ecebd5428" locType="sr" hash="583233202"/>
+    <StdViol msg="Change bitwise operator to logical operator in method 'Equals'." ln="57" locFile="BankExample/Parasoft.Dottest.Examples.Bank/AccountNumber.cs" auth="mzwawa" rule="CS.PB.BITBOOL" lnHash="1973792099" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Do not use bitwise operators on bool operands" locStartPos="16" analyzer="com.parasoft.dottest" lang="dotnet" violId="7b2b97e3-2696-3fea-84e5-5403486cb61c" locEndPos="66" urgent="true" locEndLn="57" goals="1," locStartln="57" sev="2" locRef="1" ctx="54,9|69,10" tool=".test" lineHash="1973792099" unbViolId="67c7e20c-2fb6-3734-aadf-f0cc69e820eb" locType="sr" hash="583233202"/>
+    <FlowViol msg="&quot;number&quot; may possibly be null" ln="57" locFile="BankExample/Parasoft.Dottest.Examples.Bank/AccountNumber.cs" ruleSAFMsg="NullReferenceException point" FirstElSrcRngEndPos="30" auth="mzwawa" FirstElSrcRngEndLn="57" rule="BD.EXCEPT.NR" FirstElSrcRngStartPos="16" lnHash="1973792099" ruleSCSCMsg="Source of null value" pkg="Parasoft.Dottest.Examples.Bank" FirstElSrcRngFile="BankExample/Parasoft.Dottest.Examples.Bank/AccountNumber.cs" rule.header="Avoid NullReferenceException" FirstElSrcRngStartln="57" locStartPos="16" analyzer="com.parasoft.dottest" id="699105714" lang="dotnet" violId="08d47ce4-524c-33b9-9859-aa193deabad3" locEndPos="72" urgent="true" locEndLn="57" goals="1," locStartln="57" sev="1" locRef="1" ctx="54,9|69,10" tool=".test" lineHash="1973792099" unbViolId="601f6380-f643-323f-b825-e8b0b29b8278" locType="sr" hash="583233202" causeLocRef="1">
+      <ElDescList>
+        <ElDesc lineHash="-1853614695" ln="56" srcRngStartPos="12" srcRngEndPos="55" locRef="1" locType="sr" srcRnghash="583233202" srcRngStartln="56" srcRngEndLn="56" srcRngFile="BankExample/Parasoft.Dottest.Examples.Bank/AccountNumber.cs" desc="AccountNumber number = (AccountNumber) obj;" ElType="." rngLn="56"/>
+        <ElDesc lineHash="1973792099" ln="57" srcRngStartPos="16" srcRngEndPos="72" locRef="1" locType="sr" srcRnghash="583233202" srcRngStartln="57" srcRngEndLn="57" srcRngFile="BankExample/Parasoft.Dottest.Examples.Bank/AccountNumber.cs" desc="number != null &amp; number._digits.Length != _digits.Length" ElType="CP" rngLn="57">
+          <Anns>
+            <Ann msg="Source of null value" kind="cause"/>
+            <Ann msg="Null value carrier: number" kind="comment"/>
+            <Ann msg="NullReferenceException point" kind="point"/>
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="Statement 'return' makes loop non-iterable. Consider either removing that statement or remove the loop." ln="71" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Bank.cs" auth="mzwawa" rule="CS.PB.ANIL" lnHash="-1510627844" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Avoid non-iterable loops" locStartPos="16" analyzer="com.parasoft.dottest" lang="dotnet" violId="b76624d4-9d69-384c-a37b-e26885c0c77e" locEndPos="22" urgent="true" locEndLn="71" goals="1," locStartln="71" sev="2" locRef="2" ctx="61,9|74,10" tool=".test" lineHash="-1510627844" unbViolId="37fe5504-75c9-3c2d-ac14-b47797aa0d52" locType="sr" hash="-1904464826"/>
+    <FlowViol msg="Division by &quot;accounts&quot; which may possibly be zero" ln="92" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Bank.cs" ruleSAFMsg="Point of division by zero" FirstElSrcRngEndPos="29" auth="mzwawa" FirstElSrcRngEndLn="79" rule="BD.PB.ZERO" FirstElSrcRngStartPos="12" lnHash="691716389" ruleSCSCMsg="Start of the path" pkg="Parasoft.Dottest.Examples.Bank" FirstElSrcRngFile="BankExample/Parasoft.Dottest.Examples.Bank/Bank.cs" rule.header="Avoid division by zero" FirstElSrcRngStartln="79" locStartPos="19" analyzer="com.parasoft.dottest" id="1821702378" lang="dotnet" violId="913844e9-3e58-367b-806b-27d518379b34" locEndPos="33" urgent="true" locEndLn="92" goals="1," locStartln="92" sev="1" locRef="2" ctx="76,9|93,10" tool=".test" lineHash="691716389" unbViolId="c4bb5f98-8f7d-39d1-a22c-ee5ddba8b7bf" locType="sr" hash="-1904464826" causeLocRef="2">
+      <ElDescList>
+        <ElDesc lineHash="-1995861417" ln="79" srcRngStartPos="12" srcRngEndPos="29" locRef="2" locType="sr" srcRnghash="-1904464826" srcRngStartln="79" srcRngEndLn="79" srcRngFile="BankExample/Parasoft.Dottest.Examples.Bank/Bank.cs" desc="int accounts = 0;" ElType=".C" rngLn="79">
+          <Anns>
+            <Ann msg="Start of the path" kind="cause"/>
+            <Ann msg="Variable assignment: accounts = 0" kind="valEval"/>
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-142427288" ln="81" srcRngStartPos="12" srcRngEndPos="13" locRef="2" locType="sr" srcRnghash="-1904464826" srcRngStartln="81" srcRngEndLn="91" srcRngFile="BankExample/Parasoft.Dottest.Examples.Bank/Bank.cs" desc="foreach (KeyValuePair&lt;BankUser, IList&lt;BankAccount>> keyValuePair in _accounts)" ElType="." rngLn="81">
+          <Anns>
+            <Ann msg="Loop condition evaluation: this._accounts.GetEnumerator().MoveNext() (assuming false)" kind="condEval"/>
+            <Ann msg="Not entering the loop" kind="condEval"/>
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="691716389" ln="92" srcRngStartPos="19" srcRngEndPos="33" locRef="2" locType="sr" srcRnghash="-1904464826" srcRngStartln="92" srcRngEndLn="92" srcRngFile="BankExample/Parasoft.Dottest.Examples.Bank/Bank.cs" desc="count/accounts" ElType=".P" rngLn="92">
+          <Anns>
+            <Ann msg="Point of division by zero" kind="point"/>
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="Indent the statement or add body to 'if' branch above." ln="129" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Bank.cs" auth="mzwawa" rule="CS.PB.WIBS" lnHash="824223160" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Avoid wrong indentation of blockless statements" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="a0f663c7-d68e-342d-aeac-0b2d1111cae3" locEndPos="-1" urgent="true" locEndLn="130" goals="1," locStartln="129" sev="2" locRef="2" ctx="122,9|136,10" tool=".test" lineHash="824223160" unbViolId="cdaf41a3-a4f2-38b0-901a-9b9b5794828f" locType="sr" hash="-1904464826"/>
+    <StdViol msg="Given string is an illegal regular expression. To avoid runtime exception change it to correct format." ln="28" locFile="BankExample/Parasoft.Dottest.Examples.Bank/BankUser.cs" auth="mzwawa" rule="PB.REG" lnHash="-1644930014" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Don't use illegal regular expression" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="b7a40a1b-5075-3640-9f21-626c6bca1d8c" locEndPos="62" urgent="true" locEndLn="28" goals="1," locStartln="28" sev="1" locRef="4" ctx="26,9|33,10" tool=".test" lineHash="-1644930014" unbViolId="e4a606d9-3d5d-3410-b5de-e97abd9c764d" locType="sr" hash="190994750"/>
+    <StdViol msg="Remove infinite recursion in method 'get_Ratios'." ln="68" locFile="BankExample/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs" auth="mzwawa" rule="PB.AIRC" lnHash="-111723551" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Avoid infinite recursive method calls" locStartPos="18" analyzer="com.parasoft.dottest" lang="dotnet" violId="40479d23-31c2-3902-8dfc-065ac89aa74f" locEndPos="37" urgent="true" locEndLn="68" goals="1," locStartln="68" sev="1" locRef="5" ctx="66,9|69,10" tool=".test" lineHash="-111723551" unbViolId="446acfa6-9050-399d-be99-445d1c3d2afa" locType="sr" hash="2123378625"/>
+    <StdViol msg="Do not use harcoded password string for 'BankUser' in 'CreateExampleBank'." ln="25" locFile="BankExample/Parasoft.Dottest.Examples.Bank/ExampleBank.cs" auth="mzwawa" rule="SEC.HPW" lnHash="-1592347677" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Do not use hardcoded string for password related parameters" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="d70ef9f0-91c6-3369-9f5b-5068e805952d" locEndPos="-1" urgent="true" locEndLn="26" goals="1," locStartln="25" sev="2" locRef="6" ctx="15,9|80,10" tool=".test" lineHash="-1592347677" unbViolId="6c0b67a2-f339-3cfa-9d31-6183b42ed148" locType="sr" hash="-1333971617"/>
+    <StdViol msg="Do not use harcoded password string for 'BankUser' in 'CreateExampleBank'." ln="26" locFile="BankExample/Parasoft.Dottest.Examples.Bank/ExampleBank.cs" auth="mzwawa" rule="SEC.HPW" lnHash="2039809239" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Do not use hardcoded string for password related parameters" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="360b51e6-0240-395b-81c8-124e51e2e3bf" locEndPos="-1" urgent="true" locEndLn="27" goals="1," locStartln="26" sev="2" locRef="6" ctx="15,9|80,10" tool=".test" lineHash="2039809239" unbViolId="0c8f2069-9f93-39b7-b602-57d83913797e" locType="sr" hash="-1333971617"/>
+    <StdViol msg="Do not use harcoded password string for 'BankUser' in 'CreateExampleBank'." ln="27" locFile="BankExample/Parasoft.Dottest.Examples.Bank/ExampleBank.cs" auth="mzwawa" rule="SEC.HPW" lnHash="1660023329" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Do not use hardcoded string for password related parameters" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="22d12a0a-7e58-3dd9-b26e-1a90fe3b6ad6" locEndPos="-1" urgent="true" locEndLn="28" goals="1," locStartln="27" sev="2" locRef="6" ctx="15,9|80,10" tool=".test" lineHash="1660023329" unbViolId="7582c5a5-233d-34de-987b-8424858d2ec9" locType="sr" hash="-1333971617"/>
+    <StdViol msg="Adjust the string.Format call which expects 2 arguments to format but is invoked with 1 argument. The mismatch will result in the System.FormatException during runtime." ln="25" locFile="BankExample/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs" auth="mzwawa" rule="PB.CFF" lnHash="-1303577186" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Verify number of arguments in Composite Formatting feature" locStartPos="34" analyzer="com.parasoft.dottest" lang="dotnet" violId="165e8fd6-5d3a-31cf-8cbb-0eba5ef63efd" locEndPos="102" urgent="true" locEndLn="25" goals="1," locStartln="25" sev="1" locRef="8" ctx="19,9|32,10" tool=".test" lineHash="-1303577186" unbViolId="9f6c29e8-9546-3768-a125-44ac979a8f45" locType="sr" hash="-1513177483"/>
+    <StdViol msg="Make type 'Comment' accessible or remove if unused" ln="40" locFile="BankExample/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs" auth="mzwawa" rule="CS.PB.NACC" lnHash="-599668876" pkg="Parasoft.Dottest.Examples.Bank" rule.header="Avoid inaccessible classes and structs" locStartPos="19" analyzer="com.parasoft.dottest" lang="dotnet" violId="f9c75a5f-369f-3e3c-89f2-7f237b013812" locEndPos="26" urgent="true" locEndLn="40" goals="1," locStartln="40" sev="2" locRef="8" ctx="40,1|41,1" tool=".test" lineHash="-599668876" unbViolId="d7ae3f45-86b9-3325-bb46-1da022d9e219" locType="sr" hash="-1513177483"/>
+    <StdViol msg="Replace equality comparison of floating-point types to comparison which handles floating-point uncertainty." ln="49" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Money/Currency.cs" auth="mzwawa" rule="PB.DNCF" lnHash="-22214497" pkg="Parasoft.Dottest.Examples.Bank.Money" rule.header="Do not compare floating-point types for equality" locStartPos="20" analyzer="com.parasoft.dottest" lang="dotnet" violId="8297b026-619e-3fd8-b119-2456456c80e8" locEndPos="26" urgent="true" locEndLn="49" goals="1," locStartln="49" sev="2" locRef="9" ctx="46,9|50,10" tool=".test" lineHash="-22214497" unbViolId="c0ff72bf-d5e8-35c3-8664-dc9798981cf5" locType="sr" hash="-2050913566"/>
+    <StdViol msg="Provide 'default' for 'switch' statement" ln="23" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs" auth="mzwawa" rule="CS.PB.DEFSWITCH" lnHash="653259192" pkg="Parasoft.Dottest.Examples.Bank.Money" rule.header="Provide 'default:' for each 'switch' statement" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="c5877755-1bb1-3426-9a28-c2bbfdde3790" locEndPos="18" urgent="true" locEndLn="23" goals="1," locStartln="23" sev="2" locRef="11" ctx="21,9|34,10" tool=".test" lineHash="653259192" unbViolId="49ca2211-9279-355a-8c27-0c1377765466" locType="sr" hash="-153060563"/>
+    <StdViol msg="Provide 'default' for 'switch' statement" ln="38" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs" auth="mzwawa" rule="CS.PB.DEFSWITCH" lnHash="653259192" pkg="Parasoft.Dottest.Examples.Bank.Money" rule.header="Provide 'default:' for each 'switch' statement" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="ac29f74b-7176-3fd1-ab58-3e4c53ecc635" locEndPos="18" urgent="true" locEndLn="38" goals="1," locStartln="38" sev="2" locRef="11" ctx="36,9|49,10" tool=".test" lineHash="653259192" unbViolId="9561c585-e9d1-3b32-911c-29a89af99a07" locType="sr" hash="-153060563"/>
+    <StdViol msg="Use TryParse instead of Parse in method 'Parse'" ln="53" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs" auth="mzwawa" rule="PB.DNUP" lnHash="-1421762234" pkg="Parasoft.Dottest.Examples.Bank.Money" rule.header="Use TryParse method instead Parse on primitive types" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="d9d73211-976d-3bb8-b79d-abffcfd7a05e" locEndPos="50" urgent="true" locEndLn="53" goals="1," locStartln="53" sev="2" locRef="11" ctx="51,9|64,10" tool=".test" lineHash="-1421762234" unbViolId="a60bed34-5355-31b0-b947-9eccdb4c74ad" locType="sr" hash="-153060563"/>
+    <StdViol msg="Use TryParse instead of Parse in method 'Parse'" ln="23" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs" auth="mzwawa" rule="PB.DNUP" lnHash="-1797383090" pkg="Parasoft.Dottest.Examples.Bank.Money" rule.header="Use TryParse method instead Parse on primitive types" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="b5d5884a-6d45-3d0f-89e4-53699f03fde4" locEndPos="56" urgent="true" locEndLn="23" goals="1," locStartln="23" sev="2" locRef="12" ctx="21,9|30,10" tool=".test" lineHash="-1797383090" unbViolId="5b7b919a-82fc-3e10-9d88-05c909d88c42" locType="sr" hash="-760614867"/>
+    <StdViol msg="Use TryParse instead of Parse in method 'Parse'" ln="16" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs" auth="mzwawa" rule="PB.DNUP" lnHash="59597140" pkg="Parasoft.Dottest.Examples.Bank.Money" rule.header="Use TryParse method instead Parse on primitive types" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="04274c90-c380-314b-ac53-0928ae966400" locEndPos="48" urgent="true" locEndLn="16" goals="1," locStartln="16" sev="2" locRef="13" ctx="14,9|18,10" tool=".test" lineHash="59597140" unbViolId="fd6e61c3-70a8-3d0e-bac6-dadef25706f4" locType="sr" hash="1998113113"/>
+    <StdViol msg="Fill or remove empty statement placed in constructor 'ExternalTransfer'." ln="12" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs" auth="mzwawa" rule="CS.PB.CEB" lnHash="1178724475" pkg="Parasoft.Dottest.Examples.Bank.Transactions" rule.header="Avoid conditional statements with empty bodies" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="295a3953-71b7-346c-ae15-1e1a05cf68f0" locEndPos="13" urgent="true" locEndLn="14" goals="1," locStartln="12" sev="1" locRef="15" ctx="8,9|15,10" tool=".test" lineHash="1178724475" unbViolId="5aa305a8-9102-34e5-ab4d-c3570164059c" locType="sr" hash="2123519255"/>
+    <StdViol msg="Complete implementation: TODO: check the balance before transfering money out" ln="19" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs" auth="mzwawa" rule="PB.II.TODO" lnHash="244629915" pkg="Parasoft.Dottest.Examples.Bank.Transactions" rule.header="Ensure that comments do not contain task tags" locStartPos="15" analyzer="com.parasoft.dottest" lang="dotnet" violId="1873ae86-00f9-3fdb-9032-2a0d9046e9d4" locEndPos="19" urgent="true" locEndLn="19" goals="1," locStartln="19" sev="2" locRef="15" ctx="17,9|21,10" tool=".test" lineHash="244629915" unbViolId="95a05e4c-589c-3dfd-b72a-f0733c046521" locType="sr" hash="2123519255"/>
+    <StdViol msg="Do not leave not implemented case." ln="30" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs" auth="mzwawa" rule="PB.II.NIE" lnHash="-1153956460" pkg="Parasoft.Dottest.Examples.Bank.Transactions" rule.header="Do not leave code which throws System.NotImplementedException" locStartPos="12" analyzer="com.parasoft.dottest" lang="dotnet" violId="8a947194-2d11-3299-b149-ad1a77e541dd" locEndPos="48" urgent="true" locEndLn="30" goals="1," locStartln="30" sev="1" locRef="15" ctx="28,9|31,10" tool=".test" lineHash="-1153956460" unbViolId="0dbb37a3-3943-363e-885c-a363867a09c9" locType="sr" hash="2123519255"/>
+    <StdViol msg="Parameter 'fee' has exact name as different parameter from base method 'Parasoft.Dottest.Examples.Bank.Transactions.TransactionBase.CheckBalance'. Reorder parameters." ln="17" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs" auth="mzwawa" rule="CMUG.MU.APSM" lnHash="965586221" pkg="Parasoft.Dottest.Examples.Bank.Transactions" rule.header="Avoid parameter swapping when overriding or implementing methods" locStartPos="32" analyzer="com.parasoft.dottest" lang="dotnet" violId="ee921b38-0823-3fef-8146-e345a15c39d6" locEndPos="44" urgent="true" locEndLn="17" goals="1," locStartln="17" sev="1" locRef="17" ctx="17,9|20,10" tool=".test" lineHash="965586221" unbViolId="517a2834-7cf4-3528-b203-4da6bd3334e6" locType="sr" hash="-2022280772"/>
+    <StdViol msg="Parameter 'amount' has exact name as different parameter from base method 'Parasoft.Dottest.Examples.Bank.Transactions.TransactionBase.CheckBalance'. Reorder parameters." ln="17" locFile="BankExample/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs" auth="mzwawa" rule="CMUG.MU.APSM" lnHash="965586221" pkg="Parasoft.Dottest.Examples.Bank.Transactions" rule.header="Avoid parameter swapping when overriding or implementing methods" locStartPos="32" analyzer="com.parasoft.dottest" lang="dotnet" violId="feb69701-93a0-321b-adda-a3f38ba98485" locEndPos="44" urgent="true" locEndLn="17" goals="1," locStartln="17" sev="1" locRef="17" ctx="17,9|20,10" tool=".test" lineHash="965586221" unbViolId="095675c4-edde-3033-aad3-b5a2279d7f79" locType="sr" hash="-2022280772"/>
+  </StdViols>
+
+      <TestedFilesDetails>
+         <Total name="Total (Suppressed)" supp="0" total="25">
+            <Project id="{B3911E73-F72B-42DB-9C20-54A93C7EA496}" name="Parasoft.Dottest.Examples.Bank" supp="0" total="25">
+               <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/AccountNumber.cs" locRef="1" locType="sr" name="AccountNumber.cs" supp="0" total="4"/>
+               <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Bank.cs" locRef="2" locType="sr" name="Bank.cs" supp="0" total="3"/>
+               <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/BankAccount.cs" locRef="3" locType="sr" name="BankAccount.cs" supp="0" total="0"/>
+               <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/BankUser.cs" locRef="4" locType="sr" name="BankUser.cs" supp="0" total="1"/>
+               <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/CurrencyExchangeConverter.cs" locRef="5" locType="sr" name="CurrencyExchangeConverter.cs" supp="0" total="1"/>
+               <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/ExampleBank.cs" locRef="6" locType="sr" name="ExampleBank.cs" supp="0" total="3"/>
+               <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/IInterBankTransferSystem.cs" locRef="7" locType="sr" name="IInterBankTransferSystem.cs" supp="0" total="0"/>
+               <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/ReportGenerator.cs" locRef="8" locType="sr" name="ReportGenerator.cs" supp="0" total="2"/>
+               <Res name="Money" supp="0" total="6">
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Money/Currency.cs" locRef="9" locType="sr" name="Currency.cs" supp="0" total="1"/>
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyInfo.cs" locRef="10" locType="sr" name="CurrencyInfo.cs" supp="0" total="0"/>
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyProvider.cs" locRef="11" locType="sr" name="CurrencyProvider.cs" supp="0" total="3"/>
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithCents.cs" locRef="12" locType="sr" name="CurrencyWithCents.cs" supp="0" total="1"/>
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Money/CurrencyWithNoCents.cs" locRef="13" locType="sr" name="CurrencyWithNoCents.cs" supp="0" total="1"/>
+               </Res>
+               <Res name="Properties" supp="0" total="0">
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Properties/AssemblyInfo.cs" locRef="14" locType="sr" name="AssemblyInfo.cs" supp="0" total="0"/>
+               </Res>
+               <Res name="Transactions" supp="0" total="5">
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Transactions/ExternalTransfer.cs" locRef="15" locType="sr" name="ExternalTransfer.cs" supp="0" total="3"/>
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Transactions/IncommingTransfer.cs" locRef="16" locType="sr" name="IncommingTransfer.cs" supp="0" total="0"/>
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Transactions/OutgoingTransfer.cs" locRef="17" locType="sr" name="OutgoingTransfer.cs" supp="0" total="2"/>
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Transactions/TransactionBase.cs" locRef="18" locType="sr" name="TransactionBase.cs" supp="0" total="0"/>
+                  <Res loc="BankExample/Parasoft.Dottest.Examples.Bank/Transactions/TransferTransaction.cs" locRef="19" locType="sr" name="TransferTransaction.cs" supp="0" total="0"/>
+               </Res>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>
