@@ -16,7 +16,8 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel.
 jobs:
   # Specifies the name of the job.
-  Run code analysis with dotTEST:
+  run-dottest-SCA:
+    name: Run code analysis with dotTEST
     # Specifies required permissions for upload-sarif action
     permissions:
       # required for all workflows
