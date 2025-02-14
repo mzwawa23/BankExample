@@ -41,7 +41,7 @@ jobs:
         with:
           testConfig: 'builtin://Recommended Rules'
           solution: 'BankExample.sln'
-          publishResults: true
+          publish: true
         
         # You can reference a specific commit or version:
         # uses: parasoft/run-dottest-action@1bc4be095189f455793afdb10b47127e06ae25ff
