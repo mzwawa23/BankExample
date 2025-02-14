@@ -50,7 +50,7 @@ jobs:
         uses: github/codeql-action/upload-sarif@v3
         if: always()
         with:
-            sarif_file: .dottest\report\4\report.sarif
+            sarif_file: .dottest\report\*\report.sarif
           # sarif_file: ${{ steps.dottest.outputs.report }}
 
       # Uploads an archive that includes all report files (.xml, .html, .sarif).
