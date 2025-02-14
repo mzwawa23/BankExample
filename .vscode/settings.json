@@ -1,0 +1,4 @@
+{
+    "dottest.defaultSolution": "${workspaceFolder}\\BankExample.sln",
+    "dottest.commandLinePattern": "dottestcli ${testConfig} ${solutionOrProjects} ${reportDir} ${selectedFiles} -nobuild -settings test_configs/dottestcli.properties"
+}

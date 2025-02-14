@@ -51,6 +51,7 @@ namespace Parasoft.Dottest.Examples.Bank
             return hash;
         }
 
+/*
         public override bool Equals(object obj)
         {
             AccountNumber number = (AccountNumber) obj;
@@ -85,5 +86,6 @@ namespace Parasoft.Dottest.Examples.Bank
             }
             return new AccountNumber(list.ToArray());
         }
+    */    
     }
 }
